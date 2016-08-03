@@ -1,0 +1,60 @@
+p {
+	font-family: 'Work Sans', sans-serif;
+}
+
+.tela {
+	width: 40%;
+    height: 6%;
+    margin: 10% 29%;
+    background-color: rgba(260, 260, 260, 0.68);
+}
+
+h1 {
+	font-family: 'Bad Script', cursive;
+}
+
+li {
+	display: inline;
+	font-size: 90px;
+	margin-left: 20px;
+}
+
+li:hover {
+	color: #E2B92A;
+}
+/*estiles fondos fixed*/
+.fondo {
+	background-size: cover;
+}
+
+.fondo-fixed {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.row {
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.fondo-1 {
+	background-image: url(../img/photo-fondo6.jpg);
+}
+/*fondo sobre-mi*/
+.fondo-azul {
+	background-color: #518B95;
+}
+/*imagen fondo Habilidades*/
+.fondo-2 {
+	background-image: url(../img/photo-fondo5.jpg);
+}
+
+img.responsive-img, video.responsive-video {
+    max-width: 20%;
+    height: auto;
+    position: relative;
+    left: 40%;
+    padding-top: 80px;
+}
