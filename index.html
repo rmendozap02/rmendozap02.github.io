@@ -12,34 +12,33 @@
 </head>
 <body>
 	<div class="navbar-fixed">
-		<nav id="#Home">
-	   <div class="nav-wrapper">
-	      <a href="#!" class="brand-logo">Logo</a>
-	      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-	      <ul class="right hide-on-med-and-down">
-	        <li><a href="#home">Home</a></li>
-	        <li><a href="#sobre-mi">Sobre Mí</a></li>
-	        <li><a href="#habilidades">Habilidades</a></li>
-	        <li><a href="#proyectos">Proyectos</a></li>
-	        <li><a href="#contactame">Contactame</a></li>
-	      </ul>
-	      <ul class="side-nav" id="mobile-demo">
-	        <li><a href="#home">Home</a></li>
-	        <li><a href="#sobre-mi">Sobre Mí</a></li>
-	        <li><a href="#habilidades">Habilidades</a></li>
-	        <li><a href="#proyectos">Proyectos</a></li>
-	        <li><a href="#contactame">Contactame</a></li>
-	      </ul>
-	    </div>
+		<nav class="nav-color">
+		   <div class="nav-wrapper">
+		      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+		      <ul class="right hide-on-med-and-down">
+		        <li><a href="#home" class="scroller">Home</a></li>
+		        <li><a href="#sobre-mi" class="scroller">Sobre Mí</a></li>
+		        <li><a href="#habilidades" class="scroller">Habilidades</a></li>
+		        <li><a href="#proyectos" class="scroller">Proyectos</a></li>
+		        <li><a href="#contactame" class="scroller">Contáctame</a></li>
+		      </ul>
+		      <ul class="side-nav" id="mobile-demo">
+		        <li><a href="#home" class="scroller">Home</a></li>
+		        <li><a href="#sobre-mi" class="scroller">Sobre Mí</a></li>
+		        <li><a href="#habilidades" class="scroller">Habilidades</a></li>
+		        <li><a href="#proyectos" class="scroller">Proyectos</a></li>
+		        <li><a href="#contactame" class="scroller">Contactame</a></li>
+		      </ul>
+		    </div>
 		</nav>
 	</div>
 	<section id="home" class="fondo fondo-fixed fondo-1">
-		<div class="container-fluid">
+		<div class="container-fluid opacidad1">
 			<div class="row">
 				<div class="col m12 valign-wrapper">
 					<div class="tela">
 						<h1 class="center-align"><b>Rosa Mendoza</b></h1>
-						<p class="center-align"><b>Programador web Front-End</b></p>
+						<p class="center-align">Programador web Front-End</p>
 					</div>
 				</div>
 			</div>
@@ -48,14 +47,18 @@
 	<section id="sobre-mi" class="fondo-azul">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col m12">
-					<img src="img/IMG_0930.JPG" class="circle responsive-img center-align">
-					<p class="center-align">Soy desarrolladora Front-End junior, <br>y parte de la 2da generación de laboratoria, <br>apasionada en lo que hago, <br>dispuesta a aprender más <br>y de enfrentar nuevos desafíos.</p>
+				<div class="col m12 center-align">
+					<h1 class="center-align titulos">Sobre Mí</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col m12 center-align">
+					<img src="img/IMG_0930.JPG" class="circle responsive-img">
+					<p class="text-sobremi">Soy desarrolladora Front-End junior, y parte de la 2da generación de laboratoria, apasionada en lo que hago, dispuesta a aprender más y de enfrentar nuevos desafíos.</p>
 					<ul class="center-align">
 						<li><i class="zmdi zmdi-run"></i></li>
 						<li><i class="zmdi zmdi-headset-mic"></i></li>
 						<li><i class="zmdi zmdi-playstation"></i></li>
-						<li><i class="zmdi zmdi-nature-people"></i></li>
 						<li><i class="zmdi zmdi-bike"></i></li>
 						<li><i class="zmdi zmdi-dribbble"></i></li>
 					</ul>
@@ -63,55 +66,102 @@
 			</div>
 		</div>		
 	</section>
-	<section id="habilidades" class="fondo-2 fondo-fixed fondo">
-		<div class="container-fluid">
+	<section id="habilidades" class="fondo-1 fondo-fixed fondo">
+		<div class="container-fluid opacidad1">
 			<div class="row">
-				<div class="col m4">
-					<p class="center-align">HTML 5</p>
-					<img src="img/HTML5-logo.png" class="center-align tm">
-					<p>SASS</p>
-					<img src="img/Sass-logo.png">
+				<div class="col m12">
+					<h1 class="center-align titulos">Habilidades</h1>
 				</div>
-				<div class="col m4">
-					<p>CSS 3</p>
-					<img src="img/CSS3-logo.png">
-					<p>JSCRIPT</p>
-					<img src="img/javascript-logo2.png">
+			</div>
+			<div class="row">
+				<div class="col m12">
+					<div class="imagenes center-align">
+						<img src="img/html.png">
+						<img src="img/sass.png">
+						<img src="img/css.png">
+					</div>
 				</div>
-				<div class="col m4">
-					<p>BOOTSTRAP</p>
-					<img src="img/Bootstrap-logo.png">
-					<p>JQUERY</p>
-					<img src="img/jquery-logo.png">
+			</div>
+			<div class="row">
+				<div class="col m12">
+					<div class="imagenes center-align">
+						<img src="img/js.png">
+						<img src="img/jquery.png">
+						<img src="img/bootstrap.png">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col m12">
+					<div class="imagenes center-align">
+						<img src="img/materialize.png">
+						<img src="img/git.png">
+						<img src="img/github.png">
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section id="proyectos">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col m6"></div>
-				<div class="col m6"></div>
-			</div>
-		</div>
-	</section>
-	<section id="contacto">
+	<section id="proyectos" class="fondo-azul">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col m12">
-					<i class="zmdi zmdi-github"></i>
-
+					<h1 class="center-align titulos">Proyectos</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col m4">
+					<img src="img/loveblog.png" class="trabajos" alt="">
+				</div>
+				<div class="col m4">
+					<img src="img/landing.png" alt="" class="trabajos">
+				</div>
+				<div class="col m4">
+					<img src="img/Todoapp.png" alt="" class="trabajos">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="contactame" class="fondo fondo-fixed fondo-1">
+		<div class="container-fluid opacidad1">
+			<div class="row">
+				<div class="col m12">
+					<h1 class="center-align titulos">Contáctame</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12">
+					<div class="red-social center-align">
+						<a href="https://github.com/rmendozap02">
+							<i class="zmdi zmdi-github"></i>
+						</a>
+						<a href="http://twitter.com/rmendozap02">
+							<i class="zmdi zmdi-twitter"></i>
+						</a>
+						<a href="mailto:rmendozap02@gmail.com">
+							<i class="zmdi zmdi-email"></i>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 	<footer>
-		
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col m12">
+					<span class="center-align">Rosa Mendoza</span>
+					<span class="center-align">Web Development</span>
+					<span class="center-align">+56962843339</span>
+				</div>	
+			</div>
+		</div>
 	</footer>
 
   <!--  Scripts-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/smoothscrolling.jquery.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
 
 </body>

@@ -1,0 +1,116 @@
+.nav-color {
+	background-color: #32495B;
+}
+p {
+	font-family: 'Work Sans', sans-serif;
+	color: #fafafa;
+	font-size: 40px;
+}
+
+.text-sobremi {
+	padding: 1% 20%;
+	font-size: 20px;
+}
+
+.opacidad1 {
+	background-color: rgba(50, 73, 91, 0.5);
+}
+
+h1 {
+	font-family: 'Bad Script', cursive;
+	color: #fafafa;
+	font-size: 80px;
+}
+
+.tela {
+	margin: 10% 32%;
+}
+
+li {
+	display: inline;
+	font-size: 50px;
+	margin-left: 50px;
+}
+
+li:hover {
+	color: #ee6e73;
+}
+/*estiles fondos fixed*/
+.fondo {
+	background-size: cover;
+}
+
+.fondo-fixed {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.row {
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.fondo-1 {
+	background-image: url(../img/photo-fondo6.jpg);
+}
+/*fondo sobre-mi*/
+.fondo-azul {
+	background-color: #F28B82;
+	padding: 8% 0;
+}
+/*imagen fondo Habilidades*/
+.fondo-2 {
+	background-image: url(../img/photo-fondo5.jpg);
+}
+
+img.responsive-img, video.responsive-video {
+    max-width: 20%;
+    height: auto;
+    position: relative;
+}
+
+.imagenes img {
+	width: 15%;
+	padding: 2%;
+	margin: 7% 0;
+}
+.trabajos{
+	max-width: 90%;
+	margin: 30px 0;
+}
+.titulos{
+	margin-top: 10px;
+	font-family: 'Bad Script', cursive;
+	color: #fafafa;
+	font-size: 80px;
+}
+
+.red-social {
+	margin: 7% 10%;
+}
+
+footer {
+	background-color: #201C1C;
+	padding: 20px;
+	display: block;
+}
+footer span{
+	color: #fafafa;
+	display: block;
+
+}
+.red-social a {
+	text-decoration: none;
+    margin: 2%;
+    font-size: 100px;
+    color: #F28B82;
+}
+
+.red-social a:hover {
+	color: #2879B7;
+}
+#contactame h1{
+	margin-top: 30px;
+}
